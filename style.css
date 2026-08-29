@@ -34,12 +34,12 @@ p {
   max-width: 700px;
   justify-self: center;
   align-items: center;
-  margin: 0 auto;
+  margin: 25px auto;
   background-color: var(--section-color);
   padding: 25px;
   border-radius: 20px;
   gap: 5px;
-  min-height: 300px;
+  min-height: auto;
 }
 .container img {
   max-width: 100%;
