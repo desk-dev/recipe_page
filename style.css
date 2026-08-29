@@ -34,7 +34,7 @@ p {
   max-width: 43.75em;
   justify-self: center;
   align-items: center;
-  margin: 25px auto;
+  margin: 1.5625em auto;
   background-color: var(--section-color);
   padding: 25px;
   border-radius: 20px;
