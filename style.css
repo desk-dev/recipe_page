@@ -31,7 +31,7 @@ p {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 700px;
+  max-width: 43.75em;
   justify-self: center;
   align-items: center;
   margin: 25px auto;
@@ -57,7 +57,8 @@ p {
 
 .container-block ul li {
   padding: 10px;
-  margin-top: 5px;
+  inline-size: 5px;
+  writing-mode: horizontal-tb;
 }
 
 .container-block h3 {
@@ -131,7 +132,7 @@ td:nth-child(2) {
   color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 25em) {
   body {
     background-color: var(--section-color);
   }
