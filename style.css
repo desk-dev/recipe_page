@@ -97,7 +97,7 @@ ol {
 ul.list li::marker,
 ol.list li::marker {
   color: hsl(14, 45%, 36%);
-  font-size: 20px;
+  font-size: 1.25em;
   font-weight: 800;
 }
 
